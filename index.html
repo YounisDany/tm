@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حجز موعد</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .checkmark {
+            font-size: 60px;
+            color: green;
+        }
+        .message {
+            font-size: 24px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .bottom-bar {
+            width: 100%;
+            height: 80px;
+            background-color: #f8f9fa;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            bottom: 0;
+        }
+        .bottom-bar div {
+            text-align: center;
+        }
+        .bottom-bar img {
+            width: 30px;
+            height: 30px;
+        }
+        /* Disable scrolling */
+        body {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h2>حجز موعد</h2>
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <i class="checkmark"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQWN-SLzk5eeEuA9zBJKzsM0qbvtLsKDfJ-w&s"/></i>
+        </div>
+        <p class="message">تم الحجز بنجاح</p>
+    </div>
+
+    <div class="bottom-bar">
+        <div>
+            <img src="https://img.icons8.com/ios-filled/50/000000/home.png" alt="Home">
+            <p>الصفحة الرئيسية</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/ios-filled/50/000000/search.png" alt="Search">
+            <p>بحث</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/ios-filled/50/000000/books.png" alt="Library">
+            <p>مكتبة</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/ios-filled/50/000000/globe.png" alt="Help">
+            <p>دعم تقني</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
